@@ -1,0 +1,21 @@
+{
+    "name": "materialui-vscode",
+    "displayName": "MaterialUI-VSCODE",
+    "description": "A Visual Studio Code Theme Based on Material UI",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.32.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Material UI for Visual Studio Code",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Material UI for Visual Studio Code-color-theme.json"
+            }
+        ]
+    }
+}
