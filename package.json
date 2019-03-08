@@ -2,6 +2,7 @@
     "name": "materialui-vscode",
     "displayName": "MaterialUI-VSCODE",
     "description": "A Visual Studio Code Theme Based on Material UI",
+    "publisher": "doamatto",
     "version": "1.0.0",
     "engines": {
         "vscode": "^1.32.0"
@@ -9,6 +10,10 @@
     "categories": [
         "Themes"
     ],
+    "repository": [{
+        "type": "git",
+        "url": "https://github.com/doamatto/materialui-vscode"
+    }],
     "contributes": {
         "themes": [
             {

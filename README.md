@@ -1,13 +1,9 @@
-# README
-## This is the README for your extension "materialui-vscode"
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+# Material UI for Visual Studio Code
+(screenshots coming soon)
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
+This theme is pretty cut and dry: it brings the great colour palette of Material UI to Visual Studio Code and makes it look even better than before!
 
-### For more information
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+**Install:** You can install the extension from three places
+> - [Download a release from GitHub](https://github.com/doamatto/materialui-vscode/releases/latest)
+> - [Self-Package the Source via GitHub](https://github.com/doamatto/materialui-vscode)
+> - [Install from the Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=doamatto.materialui-vscode)
