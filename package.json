@@ -2,18 +2,24 @@
     "name": "materialui-vscode",
     "displayName": "MaterialUI-VSCODE",
     "description": "A Visual Studio Code Theme Based on Material UI",
+	"license": "GPL-3.0-or-later",
     "publisher": "doamatto",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "engines": {
         "vscode": "^1.32.0"
     },
     "categories": [
         "Themes"
     ],
+    "tags": "color-theme, material ui, theme, material colours, material colors, material colurs",
     "repository": [{
         "type": "git",
         "url": "https://github.com/doamatto/materialui-vscode"
     }],
+    "homepage": "https://doamatto.github.io/materialui-vscode",
+    "bugs": {
+        "url": "https://github.com/doamatto/materialui-vscode/issues/new"
+    },
     "contributes": {
         "themes": [
             {
@@ -22,5 +28,9 @@
                 "path": "./themes/Material UI for Visual Studio Code-color-theme.json"
             }
         ]
+    },
+    "scripts": {
+        "package": "vsec package",
+        "publish": "vsec publish"
     }
 }
