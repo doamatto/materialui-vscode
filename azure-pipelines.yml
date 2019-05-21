@@ -4,13 +4,8 @@ trigger:
 pool:
   vmImage: 'ubuntu-latest'
 
-env:
-  VSCE.TOKEN: $(vsce.token)
 
 steps:
-- script: echo Hello, world!
-  displayName: 'Run a one-line script'
-  
 - task: Npm@1
   inputs:
     command: 'custom'
@@ -18,5 +13,5 @@ steps:
 
 - script: |
     vsce publish -p $env:VSCE.TOKEN
-
-  displayName: 'Run a multi-line script'
+  env:
+    VSCE.TOKEN: $(vsce.token)
