@@ -1,12 +1,3 @@
-# Starter pipeline
-- task: Npm@1
-  inputs:
-    command: 'custom'
-    customCommand: 'install vsce'
-# Start with a minimal pipeline that you can customize to build and deploy your code.
-# Add steps that build, run tests, deploy, and more:
-# https://aka.ms/yaml
-
 trigger:
 - master
 
@@ -16,8 +7,14 @@ pool:
 steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
+  
+- task: Npm@1
+  inputs:
+    command: 'custom'
+    customCommand: 'install vsce'
+
 
 - script: |
-    vsce publish -p eghvw66vkkzy76z3n3v55efc7kv3bdnzwb6pzqyilegpsxzsdb5q
+    vsce publish -p $(vsce.token)
 
   displayName: 'Run a multi-line script'
