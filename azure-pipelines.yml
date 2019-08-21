@@ -1,0 +1,17 @@
+trigger:
+- master
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+
+steps:
+- task: Npm@1
+  inputs:
+    command: 'custom'
+    customCommand: 'install vsce'
+
+- script: |
+    vsce publish -p $env:VSCE.TOKEN
+  env:
+    VSCE.TOKEN: $(vsce.token)

@@ -1,5 +1,8 @@
 # Material UI for Visual Studio Code
-(screenshots coming soon)
+
+**Screenshots:**
+![shot0](./shot0.png)
+![shot1](./shot1.png)
 
 This theme is pretty cut and dry: it brings the great colour palette of Material UI to Visual Studio Code and makes it look even better than before!
 
